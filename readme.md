@@ -186,13 +186,13 @@ Sending telemetry ...
 
 Now that we have data being sent lets look at the data in our IoT Central application. Click the device you created and then select the temperature and humidity telemetry values in the Telemetry column. You can turn on and off telemetry values by clicking on the eyeballs. We are only sending temperature and humidity so no other telemetry items will be active. You should see a screen similar to this:
 
-![telemetry on Arduino Uno WiFi Rev2](https://github.com/firedog1024/arduino-uno-wifi-iotc/blob/master/assets/telemetry.jpg)
+![telemetry on Arduino Uno WiFi Rev2](https://github.com/firedog1024/arduino-uno-wifi-iotc/blob/master/assets/telemetry.png)
 
 ### Properties:
 
 The device is also updating the property "Die Number", click on the "Properties" link at the top and you should see the value in the Die Number change about ever 15 seconds.
 
-![properties on Arduino Uno WiFi Rev2](https://github.com/firedog1024/arduino-uno-wifi-iotc/blob/master/assets/properties.jpg)
+![properties on Arduino Uno WiFi Rev2](https://github.com/firedog1024/arduino-uno-wifi-iotc/blob/master/assets/properties.png)
 
 ### Settings:
 
@@ -206,13 +206,13 @@ Fan Speed setting change received with value: 200
 
 The settings screen should look something like this:
 
-![settings on Arduino Uno WiFi Rev2](https://github.com/firedog1024/arduino-uno-wifi-iotc/blob/master/assets/settings.jpg)
+![settings on Arduino Uno WiFi Rev2](https://github.com/firedog1024/arduino-uno-wifi-iotc/blob/master/assets/settings.png)
 
 ### Commands:
 
 We can send a message to the device from IoT Central. Go to the "Commands" link at the top and enter a message into the Echo - Value to display text box. The message should consist of only alpha characters (a - z) and spaces, all other characters will be ignored. Click the "Run" button and watch your device. You should see the LED blink morse code. If you enter SOS the led should blink back ...---... where dots are short blinks and dashes slightly longer :-)
 
-![commands on Arduino Uno WiFi Rev2](https://github.com/firedog1024/arduino-uno-wifi-iotc/blob/master/assets/commands.jpg)
+![commands on Arduino Uno WiFi Rev2](https://github.com/firedog1024/arduino-uno-wifi-iotc/blob/master/assets/commands.png)
 
 
 The morse code blinking LED is here on the Arduino Uno WiFi Rev2
