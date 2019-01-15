@@ -14,6 +14,14 @@ As you can see the specs on this board are not great so the challenge is to enab
 
 The code here enables all that functionality in about 380 lines of core code.  When built the code consumes about 40KB (81%) of flash and 670 bytes (10%) of dynamic memory.  
 
+## Purchasing an Arduino Uno WiFi Rev2
+
+If you dont have an Arduino Uno WiFi Rev2 you can purchase one from Arrow 
+
+![Arrow logo](https://github.com/firedog1024/arduino-uno-wifi-iotc/blob/master/assets/arrow-logo.png)
+
+* Arduino Uno WiFi Rev2 https://www.arrow.com/en/products/abx00021/arduino-corporation
+
 ## Features
 
 * Uses the onboard LSM6DS IMU chip to get accelermoter and gyroscopic sensor data along with temperature data.  
