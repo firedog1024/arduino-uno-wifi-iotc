@@ -4,11 +4,15 @@
 
 We have been experimenting with a number of Arduino boards and getting them connected to Azure IoT Central to send sensor data to Azure.  We did this with the MKR1000 and MKR1010 with good success (see https://github.com/firedog1024/mkr1000-iotc).  Then we asked ourselves can we go smaller?  The Arduino Uno WiFi Rev2 is an Arduino Uno class device with an added U-blox WiFi chip, the specs look like this:
 
-Microcontroller	ATMEGA4809
-Flash Memory	48 KB (ATMEGA4809)
-SRAM	        6,144 Bytes (ATMEGA4809)
-EEPROM	        256 Bytes (ATMEGA4809)
-Clock Speed	    16 MHz
+|   |   |
+|---|---|
+| Microcontroller  | ATMEGA4809  |
+| Flash Memory  | 48 KB   |
+| SRAM  | 6,144 Bytes   |
+| EEPROM  | 256 Bytes   |
+| Clock Speed  | 16 MHz  |
+|   |   |
+
 
 As you can see the specs on this board are not great so the challenge is to enable the device to talk to IoT Central and/or IoT Hub via MQTT over WiFi and support sending telemetry, sending and recieving Digital Twin updates, and responding to commands from the cloud all within 6KB of SRAM.
 
